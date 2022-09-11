@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "scripts": {
+    "start": "clear && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Navjot"
+}
