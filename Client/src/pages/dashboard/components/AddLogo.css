@@ -1,0 +1,73 @@
+.add-logo{
+  position: relatve;
+  margin: 20px;
+  width: 60px;
+  background: linear-gradient(-45deg,#7958f1,#a298fc );
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.add-pop-container{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  color: #000;
+  width: 320px;
+  min-height: 400px;
+  z-index: 1000;
+  display:flex;
+  flex-direction: column;
+}
+
+.add-info{
+  width: 100%;
+  padding: 20px;
+  min-height: 80px;
+  background: linear-gradient(-45deg,#7958f1,#a298fc );
+  text-align: center;
+}
+
+.add-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  min-height: 80px;
+}
+.add-form input, select{
+  min-height: 40px;
+  border-radius: 5px;
+}
+
+.add-form button{
+  background: linear-gradient(-45deg,#7958f1,#a298fc );
+  color: #fff;
+  border-radius: 10px;
+  width: 150px;
+  min-height: 50px;
+}
+
+.popup-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+}
+.popup-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+}
+

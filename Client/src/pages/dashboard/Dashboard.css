@@ -1,0 +1,134 @@
+dashboard-wrapper{
+	display: grid;
+	width: 100%;
+}
+
+.post {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 300px;
+  margin: 10px auto 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s ease-in-out;
+  font-family: "inter", sans-serif;
+  background: linear-gradient(90deg,#7958f1,#a298fc );
+  color: white;
+  text-align: left;
+
+}
+
+.post:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.preview {
+  display: flex;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  align-items: center;
+}
+.preview img {
+  width: 300px;
+}
+
+h1.product {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+  line-height: normal;
+  color: white;
+  padding: .5rem;
+}
+h1 .detail{
+  margin-top: 0.4rem;
+  font-size: 16px;
+  width: 75%;
+}
+
+.desc-short {
+  position: absolute;
+  bottom:50px;
+  left: 320px;
+  font-size: 20px;
+  line-height: normal;
+  padding-left: .8rem;
+}
+.desc-long {
+  position: absolute;
+  bottom: 10px;
+  left: 320px;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: left;
+  padding: .8rem;
+}
+.details{
+  border: 1px solid #607d8b;
+  width:100px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.button {
+  position: absolute;
+  bottom:-20px;
+  right:-10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inter, sans-serif;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border: 0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 360px;
+}
+.button:hover {
+  box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.button:focus {
+  outline: none;
+}
+
+.button p{
+  text-align: center;
+  width: 100%;
+}
+
+.posta {
+  width: 300px;
+  height: max-content;
+  margin: 10px auto;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s ease-in-out;
+  font-family: "inter", sans-serif;
+  background: linear-gradient(90deg,#7958f1,#a298fc );
+  color: white;
+  text-align: center;
+  gap: 5px;
+}
+
+.posta:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.previewa {
+  background: #fff;
+  align-items: center;
+}
+.previewa img {
+  width: 300px;
+}
+
+

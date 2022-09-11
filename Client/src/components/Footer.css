@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+footer a{
+  color: white;
+}
+
+footer {
+  background: linear-gradient(45deg,#7958f1,#a298fc );
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  margin-top: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.heading {
+  margin-bottom: 15px;
+}
+.col1 {
+  flex: 1;
+  min-width: 200px;
+}
+.col2 {
+  flex: 2;
+  min-width: 300px;
+}
+.col3 {
+  flex: 1;
+  min-width: 200px;
+}
+
+.col1 a {
+  display: inline-block;
+  padding: 7px 0;
+  font-size: 14px;
+}
+.col1 a:hover {
+  color: #58bed5;
+}
+
+.col2 .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+}
+.col2 a {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.col2 a:hover {
+  background: #58bed5;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+.col3 ion-icon {
+  font-size: 30px;
+}
+.social a:hover ion-icon {
+  color: #5ac1d8;
+}
+
+.terms {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.terms a {
+  color: #7783a0;
+}
+
+.section5{
+display:flex;
+align-items:center;
+gap: 10px;
+width:100%;
+padding:2rem 4rem;
+}
+
+@Media (max-width:1020px){
+.section5{
+display:block;
+}
+.section5 section{
+padding:1rem 1rem;
+text-align:center;
+}
+.section5 section .btn2{
+float:none;
+}
+}
+
+
